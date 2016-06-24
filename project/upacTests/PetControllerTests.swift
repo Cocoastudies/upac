@@ -13,7 +13,7 @@ class PetControllerTests: XCTestCase {
     
     struct FakePetAPI : PetAPI{
         
-        func getAll(callBack: (pets: [Pet]) -> Void) {
+        func getAll(_ callBack: (pets: [Pet]) -> Void) {
             let mockedData = [Pet(name: "Michel" , breed: "Husk"   , age: .baby  , gender: .male  , size: .small),
                               Pet(name: "Marcele", breed: "Bulldog", age: .young , gender: .female, size: .large),
                               Pet(name: "Merlin" , breed: "Terrier", age: .senior, gender: .male  , size: .medium)]
@@ -53,7 +53,7 @@ class PetControllerTests: XCTestCase {
         petController.viewDidLoad()
         
         let tableView = petController.tableView
-        let cell = petController.tableView(tableView, cellForRowAtIndexPath: NSIndexPath(forRow: 2, inSection: 0)) as! PetCell
+        let cell = petController.tableView(tableView, cellForRowAtIndexPath: IndexPath(forRow: 2, inSection: 0)) as! PetCell
         XCTAssertEqual(cell.name.text, "Merlin")
         XCTAssertEqual(cell.size.text, "Porte Médio")
         

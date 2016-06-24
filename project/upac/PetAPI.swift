@@ -11,5 +11,5 @@ import Foundation
 protocol PetAPI{
     
     //will get all pets and inform the callback
-    func getAll(callBack: (pets: [Pet]) -> Void) -> Void
+    func getAll(_ callBack: (pets: [Pet]) -> Void) -> Void
 }

@@ -10,7 +10,7 @@ import Foundation
 
 struct PetAPIImpl: PetAPI {
     
-    func getAll(callBack: (pets: [Pet]) -> Void) {
+    func getAll(_ callBack: (pets: [Pet]) -> Void) {
         //should be something like an asynchronously call to Firebase
         let mocked = [Pet(name: "Michel" , breed: "Husk"   , age: .baby  , gender: .male  , size: .small),
                       Pet(name: "Marcele", breed: "Bulldog", age: .young , gender: .female, size: .large),

@@ -13,7 +13,7 @@ class PetCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var size: UILabel!
     
-    func setUIWithModel(pet: Pet){
+    func setUIWithModel(_ pet: Pet){
         self.name.text = pet.name
         self.size.text = pet.size.friendlyName
     }
