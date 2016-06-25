@@ -6,8 +6,6 @@ use_frameworks!
 target 'upac' do
 
   pod 'Firebase'
-  pod 'Alamofire', '~> 3.4'
-  pod 'ObjectMapper', '~> 1.2'
 
 end
 
