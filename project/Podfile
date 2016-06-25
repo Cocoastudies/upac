@@ -5,8 +5,7 @@ use_frameworks!
 
 target 'upac' do
 
-pod 'Firebase'
-
+  pod 'Firebase'
 
 end
 
@@ -17,4 +16,3 @@ end
 target 'upacUITests' do
 
 end
-

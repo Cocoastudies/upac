@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		119F1DA503CBADC9D735BABA /* Pods_upacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4175955B6ED30FEE8C185BFE /* Pods_upacTests.framework */; };
+		199EA17D1D1E477F00CF04AA /* ObjectMapper in Resources */ = {isa = PBXBuildFile; fileRef = 199EA17C1D1E477F00CF04AA /* ObjectMapper */; };
+		199EA17F1D1E479400CF04AA /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 199EA17E1D1E479400CF04AA /* Alamofire */; };
 		6284C180E81CCD59EEDD4032 /* Pods_upac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B4C235761F75F1846DC8F9 /* Pods_upac.framework */; };
 		6505D6CA1CF10C040003A6E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6505D6C91CF10C040003A6E5 /* GoogleService-Info.plist */; };
 		6575532C1CF1B48300410FA3 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575532B1CF1B48300410FA3 /* Pet.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		05E75E7A5FFB9C4C46208A7A /* Pods-upacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upacTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-upacTests/Pods-upacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		199EA17C1D1E477F00CF04AA /* ObjectMapper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjectMapper; sourceTree = "<group>"; };
+		199EA17E1D1E479400CF04AA /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alamofire; sourceTree = "<group>"; };
 		20EC42C5D54DD54246AE85B3 /* Pods_upacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2695F3D11BE1E0196BDAF9C5 /* Pods-upacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upacUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-upacUITests/Pods-upacUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4175955B6ED30FEE8C185BFE /* Pods_upacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +196,8 @@
 		EE8AD1C741601EB91CA99607 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				199EA17E1D1E479400CF04AA /* Alamofire */,
+				199EA17C1D1E477F00CF04AA /* ObjectMapper */,
 				B6B4C235761F75F1846DC8F9 /* Pods_upac.framework */,
 				4175955B6ED30FEE8C185BFE /* Pods_upacTests.framework */,
 				20EC42C5D54DD54246AE85B3 /* Pods_upacUITests.framework */,
@@ -315,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A698F01CF10A3400475DE6 /* LaunchScreen.storyboard in Resources */,
+				199EA17D1D1E477F00CF04AA /* ObjectMapper in Resources */,
 				6505D6CA1CF10C040003A6E5 /* GoogleService-Info.plist in Resources */,
+				199EA17F1D1E479400CF04AA /* Alamofire in Resources */,
 				65A698ED1CF10A3400475DE6 /* Assets.xcassets in Resources */,
 				65A698EB1CF10A3400475DE6 /* Main.storyboard in Resources */,
 			);
