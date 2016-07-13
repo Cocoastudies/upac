@@ -4,6 +4,7 @@ class AppCoordinator {
 
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
+    /// set the rootViewController and make window visible
     func start(withWindow window: UIWindow) {
 
         guard let petViewController = storyboard.controller("PetViewController")
@@ -27,6 +28,7 @@ class AppCoordinator {
 }
 
 extension UIStoryboard {
+    /// short version of instantiateViewController(withIdentifier:)
     func controller(_ identifier: String) -> UIViewController {
         return self.instantiateViewController(withIdentifier: identifier)
     }

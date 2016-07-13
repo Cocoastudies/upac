@@ -2,17 +2,18 @@ import UIKit
 
 class PetViewController: UITableViewController {
 
-    //MARK: public properties
     var petApi: PetApi?
+    /// to be called when user taps a pet
     var didTap: ((pet: PetViewModel) -> Void)?
 
-    //MARK: private properties
     private let delegate = PetDelegate()
     private var datasource: PetDataSource!
 
-    //MARK: life cicle
     override func viewDidLoad() {
+        //current solution for putting top inset on tableview
+        tableView.contentInset = UIEdgeInsets(top: 16, left: 0, bottom: 0, right: 0)
 
+        //we can't continue without petApi
         guard petApi != nil else {
             return
         }
@@ -22,19 +23,19 @@ class PetViewController: UITableViewController {
         tableView.dataSource = datasource
         tableView.delegate = delegate
 
-        //data
         datasource?.fetchData(completion: {
-
+            //once we fetch the data, reload the tableview
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
 
         })
 
-        //navigation
         delegate.didTap = {row in
-            let pet = self.datasource.petAt(row: row)
-            self.didTap?(pet: pet)
+            if let pet = self.datasource.petAt(row: row) {
+                //tell the navigator, if any, about the tap
+                self.didTap?(pet: pet)
+            }
         }
 
     }

@@ -1,4 +1,4 @@
 protocol PetApi {
-    //will get all pets and inform the callback
+    /// get all pets and send them to completion
     func getAll(completion: (pets: [Pet]) -> Void) -> Void
 }

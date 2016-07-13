@@ -8,11 +8,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        //configure firebase
+
         FIRApp.configure()
 
-        //intantiate window manually
+        //we don't have main storyboard set on info.plist
+        //we are instantiating window manually
         window = UIWindow()
+
         AppCoordinator().start(withWindow: window!)
 
         return true

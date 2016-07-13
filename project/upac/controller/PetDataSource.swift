@@ -1,7 +1,6 @@
 import UIKit
 
 class PetDataSource: NSObject, UITableViewDataSource {
-
     var petApi: PetApi
 
     private var pets = [PetViewModel]()
@@ -18,10 +17,14 @@ class PetDataSource: NSObject, UITableViewDataSource {
         }
     }
 
-    func petAt(row: Int) -> PetViewModel {
+    func petAt(row: Int) -> PetViewModel? {
+        guard row >= 0 && row < pets.count else {
+            return nil
+        }
         return pets[row]
     }
 
+    //MARK: tableview delegate methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pets.count
     }

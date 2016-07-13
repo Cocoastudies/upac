@@ -43,13 +43,13 @@ enum Gender {
 }
 
 enum Size {
-    //11 kg or less
+    /// 11 kg or less
     case small
-    //12-27 kg
+    /// 12-27 kg
     case medium
-    //28-45 kg
+    /// 28-45 kg
     case large
-    //46 kg or more
+    /// 46 kg or more
     case xlarge
 
     var friendlyName: String {
