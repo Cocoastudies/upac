@@ -10,18 +10,20 @@
 		119F1DA503CBADC9D735BABA /* Pods_upacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4175955B6ED30FEE8C185BFE /* Pods_upacTests.framework */; };
 		6284C180E81CCD59EEDD4032 /* Pods_upac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B4C235761F75F1846DC8F9 /* Pods_upac.framework */; };
 		6505D6CA1CF10C040003A6E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6505D6C91CF10C040003A6E5 /* GoogleService-Info.plist */; };
-		6575532C1CF1B48300410FA3 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575532B1CF1B48300410FA3 /* Pet.swift */; };
-		6576A5381CFDFC8A00685724 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A5371CFDFC8A00685724 /* PetAPI.swift */; };
-		6576A53A1CFE010E00685724 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A5391CFE010E00685724 /* PetViewController.swift */; };
-		6576A5401CFE09D200685724 /* PetAPIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A53F1CFE09D200685724 /* PetAPIImpl.swift */; };
-		6576A5431CFE125900685724 /* PetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A5421CFE125900685724 /* PetCell.swift */; };
-		6576A5451CFE278D00685724 /* PetControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A5441CFE278D00685724 /* PetControllerTests.swift */; };
+		656DC3591D351DFB002ED461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656DC3571D351DFB002ED461 /* LaunchScreen.storyboard */; };
+		656DC35A1D351DFB002ED461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656DC3581D351DFB002ED461 /* Main.storyboard */; };
+		656DC35E1D351E19002ED461 /* PetApiFireb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC35C1D351E19002ED461 /* PetApiFireb.swift */; };
+		656DC35F1D351E19002ED461 /* PetFireb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC35D1D351E19002ED461 /* PetFireb.swift */; };
+		656DC3611D351E86002ED461 /* PetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC3601D351E86002ED461 /* PetDataSource.swift */; };
+		656DC3631D351EE4002ED461 /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC3621D351EE4002ED461 /* PetViewModel.swift */; };
+		656DC3651D3535D7002ED461 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC3641D3535D7002ED461 /* AppCoordinator.swift */; };
+		656DC3671D353D9B002ED461 /* PetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DC3661D353D9B002ED461 /* PetDelegate.swift */; };
+		658D6A0C1D351D2A00FEFAA4 /* PetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D6A081D351D2A00FEFAA4 /* PetApi.swift */; };
+		658D6A121D351D4700FEFAA4 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D6A111D351D4700FEFAA4 /* PetViewController.swift */; };
+		6590DE151D368F4A00532454 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D6A071D351D2A00FEFAA4 /* Pet.swift */; };
+		6590DE161D368F5C00532454 /* PetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D6A031D351D1B00FEFAA4 /* PetCell.swift */; };
 		65A698E61CF10A3400475DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A698E51CF10A3400475DE6 /* AppDelegate.swift */; };
-		65A698EB1CF10A3400475DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A698E91CF10A3400475DE6 /* Main.storyboard */; };
 		65A698ED1CF10A3400475DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A698EC1CF10A3400475DE6 /* Assets.xcassets */; };
-		65A698F01CF10A3400475DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A698EE1CF10A3400475DE6 /* LaunchScreen.storyboard */; };
-		65A698FB1CF10A3400475DE6 /* upacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A698FA1CF10A3400475DE6 /* upacTests.swift */; };
-		65A699061CF10A3400475DE6 /* upacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A699051CF10A3400475DE6 /* upacUITests.swift */; };
 		970F4ABBE9EB0E6BCB6B6169 /* Pods_upacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EC42C5D54DD54246AE85B3 /* Pods_upacUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,23 +51,25 @@
 		4175955B6ED30FEE8C185BFE /* Pods_upacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B61A9D050A740943424CBC7 /* Pods-upacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upacTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-upacTests/Pods-upacTests.release.xcconfig"; sourceTree = "<group>"; };
 		6505D6C91CF10C040003A6E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6575532B1CF1B48300410FA3 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		6576A5371CFDFC8A00685724 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
-		6576A5391CFE010E00685724 /* PetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
-		6576A53F1CFE09D200685724 /* PetAPIImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPIImpl.swift; sourceTree = "<group>"; };
-		6576A5421CFE125900685724 /* PetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCell.swift; sourceTree = "<group>"; };
-		6576A5441CFE278D00685724 /* PetControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetControllerTests.swift; sourceTree = "<group>"; };
+		656DC3571D351DFB002ED461 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		656DC3581D351DFB002ED461 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		656DC35C1D351E19002ED461 /* PetApiFireb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetApiFireb.swift; sourceTree = "<group>"; };
+		656DC35D1D351E19002ED461 /* PetFireb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetFireb.swift; sourceTree = "<group>"; };
+		656DC3601D351E86002ED461 /* PetDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDataSource.swift; sourceTree = "<group>"; };
+		656DC3621D351EE4002ED461 /* PetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		656DC3641D3535D7002ED461 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		656DC3661D353D9B002ED461 /* PetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDelegate.swift; sourceTree = "<group>"; };
+		658D6A031D351D1B00FEFAA4 /* PetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCell.swift; sourceTree = "<group>"; };
+		658D6A071D351D2A00FEFAA4 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		658D6A081D351D2A00FEFAA4 /* PetApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetApi.swift; sourceTree = "<group>"; };
+		658D6A111D351D4700FEFAA4 /* PetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
 		65A698E21CF10A3300475DE6 /* upac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A698E51CF10A3400475DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65A698EA1CF10A3400475DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65A698EC1CF10A3400475DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65A698EF1CF10A3400475DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65A698F11CF10A3400475DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A698F61CF10A3400475DE6 /* upacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A698FA1CF10A3400475DE6 /* upacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upacTests.swift; sourceTree = "<group>"; };
 		65A698FC1CF10A3400475DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A699011CF10A3400475DE6 /* upacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A699051CF10A3400475DE6 /* upacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upacUITests.swift; sourceTree = "<group>"; };
 		65A699071CF10A3400475DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1ED2745BA33A3A3F510FFC8 /* Pods-upac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-upac/Pods-upac.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF19D19117C69C5BB03AEC4 /* Pods-upacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upacUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-upacUITests/Pods-upacUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +105,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656DC3561D351DCF002ED461 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				656DC3571D351DFB002ED461 /* LaunchScreen.storyboard */,
+				656DC3581D351DFB002ED461 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		656DC35B1D351E19002ED461 /* firebase */ = {
+			isa = PBXGroup;
+			children = (
+				656DC35C1D351E19002ED461 /* PetApiFireb.swift */,
+				656DC35D1D351E19002ED461 /* PetFireb.swift */,
+			);
+			path = firebase;
+			sourceTree = "<group>";
+		};
 		6575532A1CF1B44900410FA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,16 +131,6 @@
 				6505D6C91CF10C040003A6E5 /* GoogleService-Info.plist */,
 			);
 			name = "Support Files";
-			sourceTree = "<group>";
-		};
-		6576A5411CFE121800685724 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				6576A5371CFDFC8A00685724 /* PetAPI.swift */,
-				6576A53F1CFE09D200685724 /* PetAPIImpl.swift */,
-				6575532B1CF1B48300410FA3 /* Pet.swift */,
-			);
-			name = model;
 			sourceTree = "<group>";
 		};
 		65A698D91CF10A3300475DE6 = {
@@ -147,11 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				65A698E51CF10A3400475DE6 /* AppDelegate.swift */,
-				65A698E91CF10A3400475DE6 /* Main.storyboard */,
-				65A698EE1CF10A3400475DE6 /* LaunchScreen.storyboard */,
-				6576A5391CFE010E00685724 /* PetViewController.swift */,
-				6576A5421CFE125900685724 /* PetCell.swift */,
-				6576A5411CFE121800685724 /* model */,
+				656DC3641D3535D7002ED461 /* AppCoordinator.swift */,
+				65F73C8F1D351A6900DBC006 /* model */,
+				65F73C901D351A6900DBC006 /* view */,
+				65F73C8E1D351A6900DBC006 /* controller */,
 				6575532A1CF1B44900410FA3 /* Support Files */,
 			);
 			path = upac;
@@ -160,9 +171,7 @@
 		65A698F91CF10A3400475DE6 /* upacTests */ = {
 			isa = PBXGroup;
 			children = (
-				65A698FA1CF10A3400475DE6 /* upacTests.swift */,
 				65A698FC1CF10A3400475DE6 /* Info.plist */,
-				6576A5441CFE278D00685724 /* PetControllerTests.swift */,
 			);
 			path = upacTests;
 			sourceTree = "<group>";
@@ -170,10 +179,39 @@
 		65A699041CF10A3400475DE6 /* upacUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65A699051CF10A3400475DE6 /* upacUITests.swift */,
 				65A699071CF10A3400475DE6 /* Info.plist */,
 			);
 			path = upacUITests;
+			sourceTree = "<group>";
+		};
+		65F73C8E1D351A6900DBC006 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				658D6A111D351D4700FEFAA4 /* PetViewController.swift */,
+				656DC3601D351E86002ED461 /* PetDataSource.swift */,
+				656DC3661D353D9B002ED461 /* PetDelegate.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		65F73C8F1D351A6900DBC006 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				656DC35B1D351E19002ED461 /* firebase */,
+				658D6A071D351D2A00FEFAA4 /* Pet.swift */,
+				658D6A081D351D2A00FEFAA4 /* PetApi.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		65F73C901D351A6900DBC006 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				656DC3561D351DCF002ED461 /* storyboard */,
+				658D6A031D351D1B00FEFAA4 /* PetCell.swift */,
+				656DC3621D351EE4002ED461 /* PetViewModel.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		6DAB7AF4A05F1A656F1FEAFE /* Pods */ = {
@@ -212,6 +250,7 @@
 				65A698E01CF10A3300475DE6 /* Resources */,
 				6E58BEE75A6D7A3AFF19C61A /* [CP] Embed Pods Frameworks */,
 				35F1D3692746C6D2DA59A2DE /* [CP] Copy Pods Resources */,
+				656DC3681D35538F002ED461 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -314,10 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A698F01CF10A3400475DE6 /* LaunchScreen.storyboard in Resources */,
+				656DC3591D351DFB002ED461 /* LaunchScreen.storyboard in Resources */,
 				6505D6CA1CF10C040003A6E5 /* GoogleService-Info.plist in Resources */,
 				65A698ED1CF10A3400475DE6 /* Assets.xcassets in Resources */,
-				65A698EB1CF10A3400475DE6 /* Main.storyboard in Resources */,
+				656DC35A1D351DFB002ED461 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +406,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-upac/Pods-upac-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		656DC3681D35538F002ED461 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint \nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 		6E58BEE75A6D7A3AFF19C61A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -465,12 +517,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6575532C1CF1B48300410FA3 /* Pet.swift in Sources */,
-				6576A5431CFE125900685724 /* PetCell.swift in Sources */,
-				6576A5401CFE09D200685724 /* PetAPIImpl.swift in Sources */,
-				6576A5381CFDFC8A00685724 /* PetAPI.swift in Sources */,
-				6576A53A1CFE010E00685724 /* PetViewController.swift in Sources */,
+				6590DE161D368F5C00532454 /* PetCell.swift in Sources */,
+				6590DE151D368F4A00532454 /* Pet.swift in Sources */,
+				656DC3631D351EE4002ED461 /* PetViewModel.swift in Sources */,
+				658D6A0C1D351D2A00FEFAA4 /* PetApi.swift in Sources */,
+				656DC3651D3535D7002ED461 /* AppCoordinator.swift in Sources */,
+				656DC35F1D351E19002ED461 /* PetFireb.swift in Sources */,
+				656DC3611D351E86002ED461 /* PetDataSource.swift in Sources */,
+				656DC3671D353D9B002ED461 /* PetDelegate.swift in Sources */,
+				656DC35E1D351E19002ED461 /* PetApiFireb.swift in Sources */,
 				65A698E61CF10A3400475DE6 /* AppDelegate.swift in Sources */,
+				658D6A121D351D4700FEFAA4 /* PetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +535,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A698FB1CF10A3400475DE6 /* upacTests.swift in Sources */,
-				6576A5451CFE278D00685724 /* PetControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +542,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A699061CF10A3400475DE6 /* upacUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,25 +559,6 @@
 			targetProxy = 65A699021CF10A3400475DE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		65A698E91CF10A3400475DE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65A698EA1CF10A3400475DE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65A698EE1CF10A3400475DE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65A698EF1CF10A3400475DE6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65A699081CF10A3400475DE6 /* Debug */ = {
